@@ -1,0 +1,99 @@
+* {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(90deg,#0e0076, #6200ff, #0e0076);
+  margin: 0;
+  padding: 0;
+}
+
+.resume-container {
+  max-width: 750px;
+  margin: 50px auto;
+  margin-left: 20%;
+  background: linear-gradient(90deg, #a1000027, #000288,#010211);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 10px 15px 20px 0px rgb(94, 83, 247);
+}
+
+h1,
+h2 {
+  color: #f0e7e7;
+
+}
+
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.profile-pic:hover {
+transform: scale(3.3);
+}
+
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li,
+p {
+  margin: 5px 0;
+  color: antiquewhite;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #053c48;
+}
+
+button:active {
+  background: #000;
+}
+
+#myname,#contact,#gmail,#linkedin {
+  text-align: center;
+  color: rgb(230, 230, 230);
+  text-decoration: none;
+  font-weight: bolder;
+
+}
+#myname:hover{
+color: white;}
+#top-div {
+  background: rgba(255, 255, 255, 0.151);
+  border-radius: 20px;
+  margin-top: -3%;
+
+}
+
+#gmail:hover, #contact:hover, #linkedin:hover {
+  color: #0c657a;
+}
+
+#gmail:active, #contact:active, #linkedin:active {
+  color: #007BFF;
+}
+
+h2:hover,li:hover{
+  transform:scale(1.5);
+  color: #a8a8a8;
+}
+#top-div{
+  box-shadow: 0px 0px 18px -10px rgb(255, 0, 0);
+}
